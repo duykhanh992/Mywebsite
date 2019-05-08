@@ -1,0 +1,59 @@
+{% extends "pages/base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+{% load static %}
+<div id="home">
+    <div class="wrapper">
+        <div class = "box">
+          <div class="thumb">
+              <img src="{% static 'Images/pic1.jpg' %}" alt="Ollie">
+          </div>
+          <div class="details">
+            <div class="content">
+              <i class="fa fa-gift" aria-hidden="true"></i>
+              <h3>Lorem Ipsum</h3>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class = "box">
+          <div class="thumb">
+              <img src="{% static 'Images/pic2.jpg' %}" alt="Ollie">
+          </div>
+          <div class="details">
+            <div class="content">
+                <i class="fa fa-globe" aria-hidden="true"></i>
+                <h3>Lorem Ipsum</h3>
+                <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class = "box">
+          <div class="thumb">
+              <img src="{% static 'Images/pic3.jpg' %}" alt="Ollie">
+          </div>
+          <div class="details">
+              <div class="content">
+                <i class="fa fa-glass" aria-hidden="true"></i>
+                <h3>Lorem Ipsum</h3>
+                <a href="#">Read More</a>
+              </div>
+          </div>
+        </div>
+        <div class = "box">
+          <div class="thumb">
+              <img src="{% static 'Images/pic4.jpg' %}" alt="Ollie">
+          </div>
+          <div class="details">
+              <div class="content">
+                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                <h3>Lorem Ipsum</h3>
+                <a href="#">Read More</a>
+              </div>
+          </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
