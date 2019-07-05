@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 """
 
 import os, django
-import mysite
+#import mysite
 #Import DJANGO_SETTINGS_MODULE
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "myWeb.settings")
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
